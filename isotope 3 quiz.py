@@ -40,25 +40,25 @@ choices = [
 
     ["16.00 amu", "20.00 amu", "80.00 amu"],
 
-    ["60 amu", "65 amu", "70 amu"],
+    ["70 amu", "65 amu", "60 amu"],
 
     ["Add the masses and divide by 2",
      "Multiply each mass by its abundance",
      "Use the isotope with the higher mass"],
 
-    ["45.00 amu", "40.00 amu", "50.00 amu"],
+    ["50.00 amu", "40.00 amu", "45.00 amu"],
 
     ["Mass numbers (sum of protons and neutrons)",
      "Atomic numbers (number of protons)",
      "Number of electrons"],
 
-    ["Chlorine‑37 has two more neutrons",
-     "Chlorine‑37 has two more protons",
+    ["Chlorine‑37 has two more protons",
+     "Chlorine‑37 has two more neutrons",
      "Chlorine‑37 has more electrons"],
 
-    ["35.45 amu", "35.00 amu", "36.00 amu"],
+    ["35.00 amu", "35.45 amu", "36.00 amu"],
 
-    ["24.307 amu", "25.000 amu", "24.000 amu"]
+    ["24.000 amu", "25.000 amu", "24.307 amu"]
 ]
 
 correct_answers = [
@@ -110,3 +110,4 @@ if st.button("Submit"):
         st.warning("Some progress — revisit the formula and examples above.")
     else:
         st.error("Let’s go back to the basics and build up your understanding.")
+
